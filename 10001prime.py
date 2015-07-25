@@ -12,7 +12,7 @@ def prime(n):
 				currentHighestPrime = i
                 return currentHighestPrime
 
-# 7/25 - Below is my rough work to solve problem number 7:
+# 7/25 - Below is my rough work to solve problem number 7 :
 
 # First let me implement a counter function:
 
