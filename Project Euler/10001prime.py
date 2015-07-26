@@ -36,3 +36,19 @@ def whil(n):
             counter += 1
             print idx
     return events, counter
+
+#The below function checks if number is prime, replaces highest prime, and has counter -- the only needed addition is a counte
+# that checks if it's the 10001st prime
+
+def whil(n):
+    highestPrime = 2
+    counter = 0
+    while n > counter:
+        numberOfPrimes = [2,3]
+        for idx in range(2, n):
+            if (idx%2 != 0 and idx%3 !=0):
+               highestPrime = idx
+               numberOfPrimes.append(idx)
+            counter += 1
+            print idx
+    return highestPrime, counter, numberOfPrimes
