@@ -70,3 +70,27 @@ def whil(n):
                 counter += 1
 
 return highestPrime,numberOfPrimes
+
+#the below function takes in an input (which prime you'd want, eg 10001st) and returns said number unlike the above which returns all
+
+def factors(n):
+    primes = [2]
+    cur = 3
+    
+    while len(primes) < n:
+        cur += 2
+        
+        
+        if (cur % 2 == 0):
+            continue #this was added later
+        for idx in primes:
+            print "idx", idx
+            if (idx % cur == 0):
+                #if (cur % idx == 0):
+                break
+        else:
+            #primes.append(idx)
+            primes.append(cur)
+
+else:
+    return max(primes)
