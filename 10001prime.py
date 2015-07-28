@@ -52,3 +52,21 @@ def whil(n):
             counter += 1
             print idx
     return highestPrime, counter, numberOfPrimes
+
+
+# The below algo returns a list of primes, all placed into an array with the range(2,1000). This is not what the question wanted. But
+# there is a discrepency between the question and correct answer. The correct answer to this problem is 547. How is that possible
+# since the 10001st prime should at least be... greater than 100001 assuming every n is a prime.
+
+def whil(n):
+    highestPrime = 2
+    counter = 0
+    while n > counter:
+        numberOfPrimes = [2,3]
+        for idx in range(2, 1000):
+            if (idx%2 != 0 and idx%3 !=0):
+                highestPrime = idx
+                    numberOfPrimes.append(idx)
+                counter += 1
+
+return highestPrime,numberOfPrimes
