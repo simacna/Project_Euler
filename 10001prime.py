@@ -95,7 +95,7 @@ def factors(n):
 else:
     return max(primes)
 
-#The above code doesn't return proper value... let's try what we have below, hacking away
+#The above code doesn't return proper value... let'ss try what we have below, hacking away
 
 def whil(n):
     highestPrime = [2,3]
