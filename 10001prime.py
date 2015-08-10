@@ -94,3 +94,32 @@ def factors(n):
 
 else:
     return max(primes)
+
+#The above code doesn't return proper value... let's try what we have below, hacking away
+
+def whil(n):
+    highestPrime = [2,3]
+    div = 3
+    while n > len(counter):
+        div += 2
+        
+        for idx in range(2, n):
+            if (idx%2 != 0 and idx%3 !=0):
+               highestPrime = idx
+               numberOfPrimes.append(idx)
+            counter += 1
+            print idx
+    return highestPrime, counter, numberOfPrimes
+    
+print whil(11)
+
+
+
+
+
+
+
+
+
+
+
