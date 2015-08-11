@@ -115,6 +115,31 @@ print whil(11)
 
 
 
+#VICTORY! Good ol' math to the rescue. One can decide if a number is prime if pow(x,y,z)==1
+#unanswered question!!!
+#there is a discrepency between for example the len(primes) and the actual values of say the first 1000 prime as can be found: https://primes.utm.edu/lists/small/1000.txt
+#I don't know why this is
+
+import time
+
+def problem7(n):
+    primes = [2,3]
+    div = 3
+    while n > (len(primes)-1):
+        div += 2
+        if ( pow(2, div-1, div) == 1):
+            primes.append(div)
+    return max(primes)
+    
+print problem7(101)
+        
+start = time.time()
+prime = problem7(101)
+elapsed = (time.time() - start)
+print "found %s in %s seconds" % (prime,elapsed)
+
+
+
 
 
 
