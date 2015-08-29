@@ -10,7 +10,7 @@
 
 import math
 
-def pythtrip(a,b,c):
+def pythtrip(a,b,c=100):
 
 	temp = 0
 	if (a+b+c == 1000):
