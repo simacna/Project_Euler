@@ -6,6 +6,8 @@
 # There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 # Find the product abc.
 
+# Even with the above condition, c2 must == 1000, hence a2 + b2 = 1000 = c2. Hm how to use this to solve the problem more efficiently
+
 import math
 
 def pythtrip(a,b,c):
