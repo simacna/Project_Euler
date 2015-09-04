@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61bb70a6-ba7b-45cb-bc8a-c7cfaf01116a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharm/problem13.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharm/problem9.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharm/testCode.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/10001prime.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/Project Euler/Untitled" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/Project Euler/factorial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/Project Euler/problem4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/Project Euler/problem5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/Project Euler/problem6.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/factorial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/problem4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/problem5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project Euler/problem6.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem9.py" afterPath="$PROJECT_DIR$/problem9.py" />
     </list>
     <ignored path="ProjectEuler.iws" />
@@ -37,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problem9.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="problem9.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="32" column="110" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -67,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCode.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testCode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyCharm/testCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.078125">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
@@ -85,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problem9.py" />
         <option value="$PROJECT_DIR$/PyCharm/problem13.py" />
         <option value="$PROJECT_DIR$/PyCharm/testCode.py" />
+        <option value="$PROJECT_DIR$/problem9.py" />
       </list>
     </option>
   </component>
@@ -316,6 +302,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="61bb70a6-ba7b-45cb-bc8a-c7cfaf01116a" name="Default" comment="" />
@@ -349,11 +338,27 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -389,18 +394,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem9.py">
+    <entry file="file://$PROJECT_DIR$/PyCharm/testCode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyCharm/testCode.py">
+    <entry file="file://$PROJECT_DIR$/problem9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078125">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="32" column="110" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
           <folding />
         </state>
       </provider>
