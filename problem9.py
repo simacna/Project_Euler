@@ -31,3 +31,6 @@ import math
 
 # Divergence from the above - now I will write two functions, one in which returns a multi-dimensional array and
 # a second which will see if the values in the returned array will equal 1000 ([[9, 16, 25]....] if 3+4+5==10)
+
+def createPyt(desiredLength):
+    """Return a multidimensional array - length of array is described by the desiredLength"""
