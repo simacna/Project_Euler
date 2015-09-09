@@ -1,4 +1,3 @@
-a = 123
-b = str(a)
-print(type(a))
-print(type(b))
+import math
+a = math.sqrt(9)
+print(a)

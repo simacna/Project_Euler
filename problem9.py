@@ -17,7 +17,7 @@ import math
 #            #in assuming their range will suffice
 #     b = []
 #     temp = 0
-#     while 40 < (range(len(a)) and range(len(b))):
+#     while 40 < (range(len(a)) and range(len(b))): e5821454@telecomitalia.it  UPA8A6WP
 #         a.append(1) and b.append(1)
 #
 #         if (a + b + c == 1000):
@@ -32,5 +32,18 @@ import math
 # Divergence from the above - now I will write two functions, one in which returns a multi-dimensional array and
 # a second which will see if the values in the returned array will equal 1000 ([[9, 16, 25]....] if 3+4+5==10)
 
+
 def createPyt(desiredLength):
     """Return a multidimensional array - length of array is described by the desiredLength"""
+    a = []
+    b = []
+    c = []
+    finalArray = []
+    pass
+
+def itVals(arrayList, desiredOutput):
+    """iterate through the mutli-dimensional array passed and return the value given the specified desired output"""
+
+    pass
+
+
