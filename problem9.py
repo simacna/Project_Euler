@@ -39,11 +39,19 @@ def createPyt(desiredLength):
     b = []
     c = []
     finalArray = []
-    pass
+
+    while len(a) < desiredLength:
+        for val in range(2000):
+            print("this is val at top of for loop", val)
+            if math.sqrt(val) == int(val):
+                a.append(val)
+
+    return len(a)
 
 def itVals(arrayList, desiredOutput):
     """iterate through the mutli-dimensional array passed and return the value given the specified desired output"""
 
     pass
 
+print(createPyt(10))
 
