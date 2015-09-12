@@ -1,3 +1,13 @@
 import math
-a = math.sqrt(9)
-print(a)
+
+
+def funct(a):
+    b = []
+
+    for idx in range((a)):
+        print(idx)
+        b.append(idx)
+
+    return b
+
+print(funct(4))
