@@ -10,4 +10,11 @@ def funct(a):
 
     return b
 
-print(funct(4))
+yo = [1,2,3]
+yo.append(4)
+oy = list(yo)
+
+
+oy.append('hello, hi')
+
+print(oy)
