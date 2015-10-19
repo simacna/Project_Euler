@@ -1,20 +1,7 @@
-import math
+TOPIC_DICT = {"Basics": [["Introduction to Python", "/introduction-to-python/"],
+						 ["Print functions", "/python-print-function/"],
+						 ["Math basics with Python 3", "/math-basics-python-3/"]],
+			  "Web Dev": [["wd1"]]}
 
-
-def funct(a):
-    b = []
-
-    for idx in range((a)):
-        print(idx)
-        b.append(idx)
-
-    return b
-
-yo = [1,2,3]
-yo.append(4)
-oy = list(yo)
-
-
-oy.append('hello, hi')
-
-print(oy)
+for t in TOPIC_DICT['Basics']:
+    print(t[0])
