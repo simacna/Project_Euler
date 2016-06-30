@@ -1,0 +1,22 @@
+def isPrime():
+  counter = 0
+  prime = []
+  num = 3
+  while counter < 10001:
+    if (num%2==0):
+      num += 1
+      # return False
+    if (num%3==0):
+      num += 1
+      # return False
+    else:
+      counter += 1
+      prime.append(num)
+      num += 1
+      print ("this is counter", counter)
+      print ("This is number", num)
+  print prime
+
+
+print isPrime()
+
