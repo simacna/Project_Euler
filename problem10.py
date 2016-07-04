@@ -43,9 +43,9 @@ def sums(n):
   for idx in range(n):
     if idx < n and isprime(idx):
       summed_primes.append(idx)
-  return summed_primes
+  return sum(summed_primes)
 
-print(sums(10))
+print(sums(2000000))
 
 
 
