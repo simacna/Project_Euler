@@ -22,12 +22,14 @@ def cal(n):
 # print(l[1])
 def test(n):
   a = []
+  length = 0
   for idx in range(n):
-    # a.append(l[idx])
+    a.append(l[idx+1])
     # print(l[idx])
-    print idx
-  # return a
-  
+    # print(idx+1)
+  for n in a:
+   length += len(n)
+  return length
 
-print(test(3))
+print(test(100))
         
