@@ -20,20 +20,7 @@ s = "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08 \
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48"
 
 a = s.strip().split()
-<<<<<<< HEAD
-# print(a)
-=======
-# a = s.strip() #<type 'str'>
-# a = 'sina'
-# print(a)
-# b = a.split() #split takes string, outputs list
-b = s.split()
-# print(b)
 
-
-
-
->>>>>>> a6d36ffd32f0d60b399429ea74ae313b2b0d9205
 g = []
 for x in range(20):
   # print("x", x)
@@ -41,17 +28,39 @@ for x in range(20):
   for y in range(20):
     row.append(int(a[x*20 + y]))
   g.append(row)
-<<<<<<< HEAD
-print g
-=======
-# print g
->>>>>>> a6d36ffd32f0d60b399429ea74ae313b2b0d9205
 
-# for row in range(0,20):
+print g
+
+
+# for row in range(0,20-4):
 #   for col in range(0, 16):
 #     s = 0
 #     for _ in range(4):
 
+m = 0
+for row in range(0, 20):
+  for col in range(0, 16):
+    t = 1
+    for x in range(4):
+      t *= g[row][col + x]
+    if t > m:
+      m = t
+
+for col in range(0, 20):
+  for row in range(0, 16):
+    t = 1
+    for x in range(4):
+      t *= g[row + x][col]
+    if t>m:
+      m=t
+
+#diagnol
+for col in range(0, 16):
+  for row in range(0, 16):
+    for x in range(4):
+      x *= g[row + x][col + x]
+    if t > m:
+      m = t
 
 
 
