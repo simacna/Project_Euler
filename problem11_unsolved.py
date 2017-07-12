@@ -20,7 +20,7 @@ s = "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08 \
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48"
 
 a = s.strip().split()
-
+print(s.split())
 g = []
 for x in range(20):
   # print("x", x)
@@ -29,7 +29,7 @@ for x in range(20):
     row.append(int(a[x*20 + y]))
   g.append(row)
 
-print g
+# print(g)
 
 
 # for row in range(0,20-4):
